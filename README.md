@@ -29,7 +29,7 @@ Covers by‑meter/day, ranges, “latest N”, daily/weekly/monthly totals & ave
 - ❌ Mistral‑7B QLoRA on CPU (needs CUDA)
 - ❌ AutoTrain (T4) runs failed due to env/hardware/quantization mismatches
 
-## Gotchas → Fixes
+## Issues encountered so far
 - **bitsandbytes on CPU:** fails → use smaller model on CPU or a GPU for 7B
 - **Deps:** install `sentencepiece` + `protobuf`
 - **API drift (TRL/Transformers):** use plain HF `Trainer` + PEFT if needed
