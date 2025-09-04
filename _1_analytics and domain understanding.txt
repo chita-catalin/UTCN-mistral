@@ -1,0 +1,46 @@
+analytics and domain understanding
+
+
+first meta question:
+I want to fine tune a large language model on energy consumption data in London. What good questions do you think this model should be able to answer?
+LCL SmartMeter Cohort (2011–2014)
+
+1) Trends & seasonality
+
+What is the average summer temperature in London in 2013, and the % change year over year?
+
+in the interval 1 January 2013 - 1 January 2014 where are the top 3 inflection points and what likely explains each?
+
+What is the holiday vs non-holiday difference in daily energy consumption in London in 2012?
+
+2) Load profiles & peaks
+
+When did the site hit its monthly peak kW in August 2012, and what were the 15-minute values in the 2 hours before/after?
+
+How does the typical weekday 24-hour energy load in London shape compared to weekend?
+
+Since May 1, where are the change-points in night baseload (00:00–05:00), and how large is each step (ΔkW)?
+
+3) London power-grid context
+
+Who operates the transmission and distribution networks serving Greater London, and what are their distinct roles for a large customer?
+
+When do system peaks typically occur in London, and what drivers (weather, commercial schedules) explain them?
+
+How do DUoS, BSUoS, and time-of-use rates flow through a large London user’s bill, and which behaviors most affect each component?
+
+4) Benchmarking & normalization
+
+Which sites are most and least efficient by kWh/m² in 2025-Q2, and what are their values?
+
+After weather normalization (HDD/CDD), does Site C still outperform Site A in 2025-H1? By how much (%)?
+
+Which three meters contributed most to the YoY change in energy at Site B in 2025-Q2, and by how many kWh each?
+
+5) Scenarios, strategy & communication
+
+If we shift 30 kW from 17:00–20:00 to 02:00–05:00 on weekdays, what is the monthly bill impact, split into energy vs demand charges?
+
+If we add 50 EV chargers (7 kW each) operating 17:00–20:00, what becomes the new peak kW, and what two mitigations would reduce it (with estimated savings)?
+
+What would a five-bullet executive brief say were the top drivers of last month’s cost, and what one chart should accompany it (axes + metric)?
