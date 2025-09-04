@@ -1,0 +1,22 @@
+{
+  "name": "raw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-progress": "^3.12.0",
+    "csv-parse": "^6.1.0",
+    "docker": "^1.0.0",
+    "fast-glob": "^3.3.3",
+    "mongodb": "^6.19.0",
+    "p-limit": "^7.1.1",
+    "xlsx": "^0.18.5"
+  }
+}
